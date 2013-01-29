@@ -1,0 +1,64 @@
+body {
+    width: 1000px;
+    margin: auto;
+    background-color: #666;
+    font: 14px sans-serif;
+}
+
+#page {
+    padding: 75px 150px;
+    background-color: white;
+}
+
+#header {
+    padding: 15px;
+    color: white;
+}
+
+#top-links {
+    float: right;
+    padding-top: 5px;
+}
+
+#top-links a {
+    color: white;
+    text-decoration: none;
+}
+
+div.title {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+div.site-block {
+    padding-top: 30px;
+}
+
+div.site-text {
+    margin-left: 215px;
+}
+
+img.site-map-thumb {
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+
+div.site-text .site-title {
+    font-size: 1.5em;
+    margin-bottom: .2em;
+}
+
+div.site-text .site-description {
+}
+
+div.site-text .site-link {
+    margin-top: .7em;
+}
+
+div.site-text .site-link a {
+    padding: 7px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}

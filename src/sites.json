@@ -1,0 +1,21 @@
+{
+    "sites": [
+        {
+            "name": "Global Network",
+            "description": "View the entire Coastal Resilience network of tools and information around the globe.",
+            "url": "http://global.coastalresilience.org"
+        },
+        {
+            "name": "Gulf of Mexico",
+            "description": "Gulf Coastal Resilience: informing the identification of restoration projects with maximum socio-economic and ecological benefits.",
+            "bbox": [-98.61328125, 17.392579271057766, -79.716796875, 31.653381399664],
+            "url": "http://gulfmex.coastalresilience.org"
+        },
+        {
+            "name": "Puget Sound",
+            "description": "Support Restoration Decisions in the Puget Sound",
+            "bbox": [-123.2720947265625, 47.025206001585396, -121.79443359375,48.111099041065366],
+            "url": "http://pugetsound.coastalresilience.org"
+        }
+    ]
+}

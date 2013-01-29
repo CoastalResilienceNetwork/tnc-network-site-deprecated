@@ -14,7 +14,9 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/site.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/vendor/underscore-1.4.3.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -22,12 +24,49 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <div id="header">
+            <div id="top-links">
+                <a class="top-link" href="http://www.nature.org/">The Nature Conservancy</a> &nbsp;|&nbsp;
+                <a class="top-link" href="http://coastalresilience.org/">Coastal Resilience</a>
+            </div>
+            <div class="title">Coastal Resilience Network</div>
+        </div>
+        <div id="page">
+            <h3>Coastal Resilience Network</h3>
+            <div>The Coastal Resilience network supports a community of practitioners
+                around the world who are applying planning innovations to coastal hazard
+                and adaptation issues. The network provides access to peer practitioners,
+                tools, information and training focused on nature-based solutions in a
+                consistent and cost effective manner.
+            </div>
+            <div id="site-blocks"></div>
+        </div>
+
+        <script id="template-site-blocks" type="text/template">
+            <% _.each(sites, function (site) { %>
+                <div class="site-block">
+                    <img class="site-map-thumb" src="#" title="Map thumbnail">
+                    <div class="site-text">
+                        <div class="site-title"><%- site.name %></div>
+                        <div class="site-description"><%- site.description %></div>
+                        <div class="site-link">
+                            <a href="<%= site.url %>">Map this Region</a>
+                        </div>
+                    </div>
+                </div>
+             <% }); %>
+        </script>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                loadSiteData();
+            });
+        </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
