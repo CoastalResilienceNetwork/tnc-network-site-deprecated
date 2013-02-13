@@ -62,3 +62,13 @@ div.site-text .site-link a {
     background-color: black;
     text-decoration: none;
 }
+
+img.region-thumb {
+    height: 150px;
+    width: 250px;
+}
+
+.region-header {
+    font-weight: bold;
+    cursor: pointer;
+}
