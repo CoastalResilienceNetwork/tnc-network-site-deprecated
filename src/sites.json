@@ -1,32 +1,34 @@
 {
     "global": {
+        "name": "Global Coastal Resilience Site",
         "description": "View the entire Coastal Resilience network of tools and information around the globe.",
+        "thumbnailUrl": "",
         "url": "http://global.coastalresilience.org"
     },
 
     "regions": [
         {
             "name": "Caribbean",
-            "description": "",
+            "description": "a region that consists of the Caribbean Sea, its islands (most of which are enclosed by the sea), and the surrounding coasts. The region is southeast of the Gulf of Mexico and North America, east of Central America, and north of South America.",
             "thumbnailUrl": "",
             "location": [-73.6, 17.3],
             "regions": [
                 {
                     "name": "St. Vincent and the Grenadines/ Grenada",
-                    "description": "",
-                    "url": "",
+                    "description": "Its 389 km2 (150 sq mi) territory consists of the main island of Saint Vincent and the northern two-thirds of the Grenadines, which are a chain of smaller islands stretching south from Saint Vincent Island to Grenada. ",
+                    "url": "http://google.com",
                     "thumbnailUrl": ""
                 },
                 {
                     "name": "U.S. Virgin Islands",
                     "description": "",
-                    "url": "",
+                    "url": "http://google.com",
                     "thumbnailUrl": ""
                 },
                 {
                     "name": "Mesoamerican Reef",
                     "description": "",
-                    "url": "",
+                    "url": "http://google.com",
                     "thumbnailUrl": ""
                 }
             ]
