@@ -39,22 +39,26 @@
                 tools, information and training focused on nature-based solutions in a
                 consistent and cost effective manner.
             </div>
-            <div id="site-blocks"></div>
+            <ul id="site-blocks">
+
+            </ul>
         </div>
 
-        <script id="template-site-blocks" type="text/template">
-            <% _.each(sites, function (site) { %>
-                <div class="site-block">
-                    <img class="site-map-thumb" src="#" title="Map thumbnail">
-                    <div class="site-text">
-                        <div class="site-title"><%- site.name %></div>
-                        <div class="site-description"><%- site.description %></div>
-                        <div class="site-link">
-                            <a href="<%= site.url %>">Map this Region</a>
-                        </div>
-                    </div>
+        <script id="template-region" type="text/template">
+            <li>
+                <div class="region-header"><%= name %></div>
+                <img class="region-thumb" src="<%= thumbnailUrl %>"/>
+                <div class="region-detail">
+                    <div class="region-name"><%= name %></div>
+                    <div class="region-desc"><%= description %></div>
+                    <% if (typeof url !== 'undefined' && url) { %>
+                        <a href="<%= url %>">Map this site</a>
+                    <% } %>
+                    <ul>
+
+                    </ul>
                 </div>
-             <% }); %>
+            </li>
         </script>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
