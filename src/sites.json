@@ -1,21 +1,137 @@
 {
-    "sites": [
+    "global": {
+        "description": "View the entire Coastal Resilience network of tools and information around the globe.",
+        "url": "http://global.coastalresilience.org"
+    },
+
+    "regions": [
         {
-            "name": "Global Network",
-            "description": "View the entire Coastal Resilience network of tools and information around the globe.",
-            "url": "http://global.coastalresilience.org"
+            "name": "Caribbean",
+            "description": "",
+            "thumbnailUrl": "",
+            "location": [-73.6, 17.3],
+            "sites": [
+                {
+                    "name": "St. Vincent and the Grenadines/ Grenada",
+                    "description": "",
+                    "url": "",
+                    "thumbnailUrl": ""
+                },
+                {
+                    "name": "U.S. Virgin Islands",
+                    "description": "",
+                    "url": "",
+                    "thumbnailUrl": ""
+                },
+                {
+                    "name": "Mesoamerican Reef",
+                    "description": "",
+                    "url": "",
+                    "thumbnailUrl": ""
+                }
+            ]
         },
         {
             "name": "Gulf of Mexico",
-            "description": "Gulf Coastal Resilience: informing the identification of restoration projects with maximum socio-economic and ecological benefits.",
-            "bbox": [-98.61328125, 17.392579271057766, -79.716796875, 31.653381399664],
-            "url": "http://gulfmex.coastalresilience.org"
+            "description": "",
+            "thumbnailUrl": "",
+            "location": [-91.1, 28.8],
+            "regions": [
+                {
+                    "name": "Florida",
+                    "description": "",
+                    "thumbnailUrl": "",
+                    "sites": [
+                        {
+                            "name": "Florida Keys",
+                            "description": "",
+                            "url": "",
+                            "thumbnailUrl": ""
+                        },
+                        {
+                            "name": "Charlotte Harbor",
+                            "description": "",
+                            "url": "",
+                            "thumbnailUrl": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "Texas",
+                    "description": "",
+                    "thumbnailUrl": "",
+                    "sites": [
+                        {
+                            "name": "Galveston Bay",
+                            "description": "",
+                            "url": "",
+                            "thumbnailUrl": ""
+                        }
+                    ]
+                }
+            ]
         },
         {
-            "name": "Puget Sound",
-            "description": "Support Restoration Decisions in the Puget Sound",
-            "bbox": [-123.2720947265625, 47.025206001585396, -121.79443359375,48.111099041065366],
-            "url": "http://pugetsound.coastalresilience.org"
+            "name": "U.S. East Coast",
+            "description": "",
+            "thumbnailUrl": "",
+            "location": [-70.8, 41.8],
+            "sites": [
+                {
+                    "name": "New York and Connecticut (Long Island Sound)",
+                    "description": "",
+                    "url": "",
+                    "thumbnailUrl": ""
+                }
+            ]
+        },
+        {
+            "name": "U.S. West Coast",
+            "description": "",
+            "thumbnailUrl": "",
+            "location": [-122.2, 37.2],
+            "regions": [
+                {
+                    "name": "California",
+                    "description": "",
+                    "thumbnailUrl": "",
+                    "sites": [
+                        {
+                            "name": "Ventura County",
+                            "description": "",
+                            "url": "",
+                            "thumbnailUrl": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "Washington",
+                    "description": "",
+                    "thumbnailUrl": "",
+                    "sites": [
+                        {
+                            "name": "Puget Sound",
+                            "description": "",
+                            "url": "",
+                            "thumbnailUrl": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Baja California",
+            "description": "",
+            "thumbnailUrl": "",
+            "location": [-114.3, 28.7],
+            "sites": [
+                {
+                    "name": "Baja California",
+                    "description": "",
+                    "url": "",
+                    "thumbnailUrl": ""
+                }
+            ]
         }
     ]
 }
