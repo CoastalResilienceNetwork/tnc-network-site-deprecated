@@ -15,7 +15,7 @@
 
         function showSiteData(sites) {
             var regionsMarkup = _.map(sites.regions, renderRegion),
-                $sitesList = $('#site-blocks')
+                $sitesList = $('#site-blocks');
 
             // Add global region to the top
             regionsMarkup.unshift(renderRegion(sites.global));
