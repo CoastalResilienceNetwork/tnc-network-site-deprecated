@@ -1,7 +1,12 @@
 (function (N) {
     N.RegionList = function regionList() {
+        var _map;
 
         function renderListAndMap() {
+            _map = N.Map().init(loadData);
+        }
+
+        function loadData() {
             $.ajax({
                 url: 'sites.json',
                 dataType: 'json',
@@ -33,6 +38,10 @@
         function renderRegion(region) {
             // Render a region template
             var $markup =  $(N.app.templates['template-region'](region));
+
+            if (region.location) {
+                _map.addMarker(region, $markup);
+            }
 
             // Recursively render any sub-regions
             if (region.regions) {
