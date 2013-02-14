@@ -47,13 +47,13 @@
                         {
                             "name": "Florida Keys",
                             "description": "",
-                            "url": "",
+                            "url": "http://google.com",
                             "thumbnailUrl": ""
                         },
                         {
                             "name": "Charlotte Harbor",
                             "description": "",
-                            "url": "",
+                            "url": "http://google.com",
                             "thumbnailUrl": ""
                         }
                     ]
@@ -66,7 +66,7 @@
                         {
                             "name": "Galveston Bay",
                             "description": "",
-                            "url": "",
+                            "url": "http://google.com",
                             "thumbnailUrl": ""
                         }
                     ]
@@ -82,7 +82,7 @@
                 {
                     "name": "New York and Connecticut (Long Island Sound)",
                     "description": "",
-                    "url": "",
+                    "url": "http://google.com",
                     "thumbnailUrl": ""
                 }
             ]
@@ -101,7 +101,7 @@
                         {
                             "name": "Ventura County",
                             "description": "",
-                            "url": "",
+                            "url": "http://google.com",
                             "thumbnailUrl": ""
                         }
                     ]
@@ -126,14 +126,7 @@
             "description": "",
             "thumbnailUrl": "",
             "location": [-114.3, 28.7],
-            "regions": [
-                {
-                    "name": "Baja California",
-                    "description": "",
-                    "url": "",
-                    "thumbnailUrl": ""
-                }
-            ]
+            "url": "http://google.com"
         }
     ]
 }
