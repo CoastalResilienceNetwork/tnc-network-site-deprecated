@@ -31,6 +31,7 @@
             $sitesList.find('.region-header')
                 .on('click', function(evt) {
                     $(evt.target).siblings().slideToggle();
+					$(evt.target).toggleClass('active');
                 })
                 .siblings().hide();
         }
@@ -49,7 +50,7 @@
                     return renderRegion(subregion);
                 });
 
-                var $sublist = $markup.find('.region-detail ul');
+                var $sublist = $markup.find('.region-detail .sub-list');
                 $sublist.append.apply($sublist, subregions);
             }
 
