@@ -31,7 +31,7 @@
             $sitesList.find('.region-header')
                 .on('click', function(evt) {
                     $(evt.target).siblings().slideToggle();
-					$(evt.target).toggleClass('active');
+                    $(evt.target).toggleClass('active');
                 })
                 .siblings().hide();
         }

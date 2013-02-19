@@ -17,63 +17,63 @@
         <script src="js/vendor/underscore-1.4.3.min.js"></script>
     </head>
     <body>
-		<!-- TOP BAR, FIXED TO THE TOP OF THE SCREEN -->
-		<div class="fixed">
-			<nav class="top-bar">
-				<ul>
-					<li class="name">
-						<h1><a href="#">Coastal Resilience Network</a></h1>
-					</li>
-					<!-- USED FOR SMALLER SCREENS TO CONDENSE NAVIGATION -->
-					<li class="toggle-topbar"><a href="#"></a></li>
-				</ul>
-				<section>
-					<ul class="right">
-						<li><a href="#">The Nature Conservancy</a></li>
-						<li class="divider"></li>
-						<li><a href="#">Coastal Resilience</a></li>
-					</ul>
-				</section>
-			</nav>
-		</div>
+        <!-- TOP BAR, FIXED TO THE TOP OF THE SCREEN -->
+        <div class="fixed">
+            <nav class="top-bar">
+                <ul>
+                    <li class="name">
+                        <h1><a href="#">Coastal Resilience Network</a></h1>
+                    </li>
+                    <!-- USED FOR SMALLER SCREENS TO CONDENSE NAVIGATION -->
+                    <li class="toggle-topbar"><a href="#"></a></li>
+                </ul>
+                <section>
+                    <ul class="right">
+                        <li><a href="#">The Nature Conservancy</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Coastal Resilience</a></li>
+                    </ul>
+                </section>
+            </nav>
+        </div>
         <div id="map"></div>
-		<!--[if lt IE 7]>
+        <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
         <div class="row content">
-			<div id="site-details" class="twelve">
-				<h3>Coastal Resilience Network</h3>
-				<div>The Coastal Resilience network supports a community of practitioners
-					around the world who are applying planning innovations to coastal hazard
-					and adaptation issues. The network provides access to peer practitioners,
-					tools, information and training focused on nature-based solutions in a
-					consistent and cost effective manner.
-				</div>
-			</div>
-			<div id="site-blocks"></div>
-		</div>
+            <div id="site-details" class="twelve">
+                <h3>Coastal Resilience Network</h3>
+                <div>The Coastal Resilience network supports a community of practitioners
+                    around the world who are applying planning innovations to coastal hazard
+                    and adaptation issues. The network provides access to peer practitioners,
+                    tools, information and training focused on nature-based solutions in a
+                    consistent and cost effective manner.
+                </div>
+            </div>
+            <div id="site-blocks"></div>
+        </div>
 
         <script id="template-region" type="text/template">
             <div class="region twelve columns">
                 <div class="region-header"><%= name %></div>
-				<div class="row">
-					<img class="region-thumb three columns" src="<%= thumbnailUrl %>"/>
-					<div class="region-detail nine columns">
-						<div class="region-name"><%= name %></div>
-						<div class="region-desc"><%= description %></div>
-						<% if (typeof url !== 'undefined' && url) { %>
-							<a href="<%= url %>" class="button">Map this site</a>
-						<% } %>
-						<div class="row sub-list">
+                <div class="row">
+                    <img class="region-thumb three columns" src="<%= thumbnailUrl %>"/>
+                    <div class="region-detail nine columns">
+                        <div class="region-name"><%= name %></div>
+                        <div class="region-desc"><%= description %></div>
+                        <% if (typeof url !== 'undefined' && url) { %>
+                            <a href="<%= url %>" class="button">Map this site</a>
+                        <% } %>
+                        <div class="row sub-list">
 
-						</div>
-					</div>
-				</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </script>
-		
-		<script src="js/vendor/foundation.min.js"></script>
+        
+        <script src="js/vendor/foundation.min.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
         <script src="js/vendor/jquery.scrollTo.min.js"></script>
