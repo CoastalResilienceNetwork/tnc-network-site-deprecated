@@ -41,9 +41,12 @@
         function scrollToRegion(evt) {
             if (evt.graphic) {
                 var $el = evt.graphic.attributes.$el;
-                $el.parent().find('.region-header').siblings().slideUp();
-                $el.children().slideDown();
-                $.scrollTo($el, 300);
+                if (!$el.children().hasClass('active')){
+                    $el.parent().find('.region-header').siblings().slideUp().removeClass('active');
+                    $el.children().slideDown();
+                    $el.find('.region-header').first().addClass('active');
+                    $.scrollTo($el, 300);
+				}
             }
         }
 
