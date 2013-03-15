@@ -5,7 +5,7 @@
         function initializeMap(callback) {
             _map = new esri.Map('map', {
                 basemap: 'oceans',
-                center: [-50.4, 42.0],
+                center: [-120.5, 25.5],
                 zoom: 3,
                 sliderStyle: 'small',
                 logo: false
