@@ -51,7 +51,6 @@
                     $el.parent().find('.region-header').siblings().slideUp().removeClass('active');
                     $el.children().slideDown();
                     $el.find('.region-header').first().addClass('active');
-                    $.scrollTo($el, 300);
 				}
             }
         }
