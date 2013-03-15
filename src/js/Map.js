@@ -54,9 +54,11 @@
         function addMarker(region, el) {
             var marker = new esri.symbol.PictureMarkerSymbol({
                     "url":"img/map_marker.png",
-                    "height":28,
-                    "width":35,
-                    "type":"esriPMS"
+                    "height":28,  // Scaled image to look nice, beware offsets
+                    "width":35,  // below
+                    "type":"esriPMS",
+                    "xoffset": 7,  // Manual offsets center the 'pin-point' of
+                    "yoffset": 14  // the marker to reflect the actual point.
                 }),
                 point = new esri.geometry.geographicToWebMercator(
                   new esri.geometry.Point(region.location[0],region.location[1])
