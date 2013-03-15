@@ -63,12 +63,13 @@
                     <div class="region-detail nine columns">
                         <div class="region-name"><%= name %></div>
                         <div class="region-desc"><%= description %></div>
+                        <% if (typeof detailUrl !== 'undefined' && detailUrl) { %>
+                        <a href="<%= detailUrl %>" class="button">Background</a>
+                        <% } %>
                         <% if (typeof url !== 'undefined' && url) { %>
                             <a href="<%= url %>" class="button">Map this site</a>
                         <% } %>
-                        <div class="row sub-list">
-
-                        </div>
+                        <div class="row sub-list"></div>
                     </div>
                 </div>
             </div>
