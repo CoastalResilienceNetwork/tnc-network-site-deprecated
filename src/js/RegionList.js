@@ -30,8 +30,8 @@
             // Collapse all regions, and toggle visibility on click
             $sitesList.find('.region-header')
                 .on('click', function(evt) {
-                    $(evt.target).siblings().slideToggle();
-                    $(evt.target).toggleClass('active');
+                    N.regionExpander($(evt.target), false);
+
                 })
                 .siblings().hide();
         }
