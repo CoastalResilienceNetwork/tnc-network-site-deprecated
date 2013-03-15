@@ -7,7 +7,8 @@
                 basemap: 'oceans',
                 center: [-50.4, 42.0],
                 zoom: 3,
-                sliderStyle: 'small'
+                sliderStyle: 'small',
+                logo: false
             });
 
             dojo.connect(_map, 'onLoad', function() {
@@ -53,8 +54,8 @@
         function addMarker(region, el) {
             var marker = new esri.symbol.PictureMarkerSymbol({
                     "url":"img/map_marker.png",
-                    "height":40,
-                    "width":50,
+                    "height":28,
+                    "width":35,
                     "type":"esriPMS"
                 }),
                 point = new esri.geometry.geographicToWebMercator(
