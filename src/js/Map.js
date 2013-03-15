@@ -1,6 +1,11 @@
 (function(N) {
     N.Map = function networkMap() {
-        var _map;
+        var _map,
+            pointSymbol = new esri.symbol.SimpleMarkerSymbol(
+                esri.symbol.SimpleMarkerSymbol.STYLE_CIRCLE, 2,
+                new esri.symbol.SimpleLineSymbol(esri.symbol.SimpleLineSymbol.STYLE_SOLID,
+                    new dojo.Color([105, 105, 105]), 1),
+                new dojo.Color([80, 80, 80, 0.35]));
 
         function initializeMap(callback) {
             _map = new esri.Map('map', {
@@ -64,9 +69,11 @@
                   new esri.geometry.Point(region.location[0],region.location[1])
                 ),
                 attributes = {name: region.name, $el: $(el)},
-                graphic = new esri.Graphic(point, marker, attributes);
+                graphic = new esri.Graphic(point, marker, attributes),
+                smallPoint = new esri.Graphic(point, pointSymbol);
 
             _map.graphics.add(graphic);
+            _map.graphics.add(smallPoint);
         }
 
         return {
