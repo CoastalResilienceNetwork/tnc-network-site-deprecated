@@ -17,7 +17,9 @@
 html, body {
     height: 100%;
     min-height: 100%;
-    overflow: auto;
+
+    /* overflow: auto;    WARNING: Page will NOT scroll with this set */
+
     font-family: 'Archivo Narrow', 'Arial Narrow', Arial, Helvetica, sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
