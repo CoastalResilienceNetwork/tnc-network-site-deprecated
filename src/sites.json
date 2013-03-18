@@ -3,7 +3,7 @@
         "name": "Global Coastal Resilience Site",
         "description": "View the entire Coastal Resilience network of tools and information around the globe.",
         "thumbnailUrl": "/img/geo-postcards/Global2.png",
-        "detail_url":"",
+        "detail_url": "",
         "url": "http://global.coastalresilience.org"
     },
 
@@ -18,7 +18,7 @@
                     "description": "Nature holds some of the world’s best and most practical solutions to climate change, solutions that keep nature and people healthy, safe, and secure.",
                     "location": [-61.04, 12.83],
                     "url": "http://google.com",
-                    "detailUrl":"http://coastalresilience.org/awe",
+                    "detailUrl": "http://coastalresilience.org/awe",
                     "thumbnailUrl": "/img/geo-postcards/AWE.png"
                 },
                 {
@@ -26,13 +26,13 @@
                     "description": "Sea level and coastal hazards are on the rise, placing natural and human communities at great risk.  Coastal Resilience can help",
                     "location": [-64.78, 17.72],
                     "url": "http://google.com",
-                    "detailUrl":"http://coastalresilience.org/geographies/us-virgin-islands",
+                    "detailUrl": "http://coastalresilience.org/geographies/us-virgin-islands",
                     "thumbnailUrl": "/img/geo-postcards/USVirginIslands.png"
                 },
                 {
                     "name": "Mesoamerican Reef",
                     "description": "Protecting biodiversity while providing sustenance and physical protection against storms and sea level rise",
-                    "location": [-86.73, 16.38],
+                    "location": [-86.75, 17.41],
                     "url": "http://google.com",
                     "detailUrl": "http://coastalresilience.org/mar",
                     "thumbnailUrl": "/img/geo-postcards/mesoAmerican_5.png"
@@ -44,7 +44,7 @@
             "description": "Gulf Coastal Resilience: informing the identification of restoration projects with maximum socio-economic and ecological benefits",
             "thumbnailUrl": "/img/geo-postcards/gulfMexico_3.png",
             "detailUrl": "http://coastalresilience.org/gulfmex",
-            "location": [-91.1, 28.8],
+            "location": [-93.34, 29.0],
             "regions": [
                 {
                     "name": "Florida",
@@ -138,7 +138,7 @@
             "name": "Baja California",
             "description": "Adapting to climate impacts represents a huge challenge, but also an opportunity",
             "thumbnailUrl": "/img/geo-postcards/Gulf_CA.png",
-            "location": [-114.3, 28.7],
+            "location": [-113.96, 30.54],
             "url": "http://google.com",
             "detailUrl": "http://coastalresilience.org/geographies/gulf-california"
         },
