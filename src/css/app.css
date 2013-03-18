@@ -17,7 +17,9 @@
 html, body {
     height: 100%;
     min-height: 100%;
-    overflow: auto;
+
+    /* overflow: auto;    WARNING: Page will NOT scroll with this set */
+
     font-family: 'Archivo Narrow', 'Arial Narrow', Arial, Helvetica, sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -123,6 +125,7 @@ h1, h2, h3, h4, h5, h6 {
             line-height: 42px;
             padding-left: 12px;
             color: #888;
+            cursor: pointer;
             }
             #site-blocks > .region:last-child .region-header {
                 border-bottom: 1px solid #CCC;
@@ -164,7 +167,8 @@ h1, h2, h3, h4, h5, h6 {
                     }
                 
             #site-blocks > .region .region-detail .button {
-            
+                margin-right: 5px;
+                margin-bottom: 5px;
             }
     
         

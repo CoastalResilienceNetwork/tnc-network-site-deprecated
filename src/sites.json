@@ -2,7 +2,8 @@
     "global": {
         "name": "Global Coastal Resilience Site",
         "description": "View the entire Coastal Resilience network of tools and information around the globe.",
-        "thumbnailUrl": "",
+        "thumbnailUrl": "/img/geo-postcards/Global2.png",
+        "detail_url": "",
         "url": "http://global.coastalresilience.org"
     },
 
@@ -10,64 +11,72 @@
         {
             "name": "Caribbean",
             "description": "a region that consists of the Caribbean Sea, its islands (most of which are enclosed by the sea), and the surrounding coasts. The region is southeast of the Gulf of Mexico and North America, east of Central America, and north of South America.",
-            "thumbnailUrl": "",
-            "location": [-73.6, 17.3],
+            "thumbnailUrl": "/img/geo-postcards/map_carribean.png",
             "regions": [
                 {
-                    "name": "St. Vincent and the Grenadines/ Grenada",
-                    "description": "Its 389 km2 (150 sq mi) territory consists of the main island of Saint Vincent and the northern two-thirds of the Grenadines, which are a chain of smaller islands stretching south from Saint Vincent Island to Grenada. ",
+                    "name": "St. Vincent and the Grenadines/Grenada",
+                    "description": "Nature holds some of the world’s best and most practical solutions to climate change, solutions that keep nature and people healthy, safe, and secure.",
+                    "location": [-61.04, 12.83],
                     "url": "http://google.com",
-                    "thumbnailUrl": ""
+                    "detailUrl": "http://coastalresilience.org/awe",
+                    "thumbnailUrl": "/img/geo-postcards/AWE.png"
                 },
                 {
                     "name": "U.S. Virgin Islands",
-                    "description": "",
+                    "description": "Sea level and coastal hazards are on the rise, placing natural and human communities at great risk.  Coastal Resilience can help",
+                    "location": [-64.78, 17.72],
                     "url": "http://google.com",
-                    "thumbnailUrl": ""
+                    "detailUrl": "http://coastalresilience.org/geographies/us-virgin-islands",
+                    "thumbnailUrl": "/img/geo-postcards/USVirginIslands.png"
                 },
                 {
                     "name": "Mesoamerican Reef",
-                    "description": "",
+                    "description": "Protecting biodiversity while providing sustenance and physical protection against storms and sea level rise",
+                    "location": [-86.75, 17.41],
                     "url": "http://google.com",
-                    "thumbnailUrl": ""
+                    "detailUrl": "http://coastalresilience.org/mar",
+                    "thumbnailUrl": "/img/geo-postcards/mesoAmerican_5.png"
                 }
             ]
         },
         {
             "name": "Gulf of Mexico",
-            "description": "",
-            "thumbnailUrl": "",
-            "location": [-91.1, 28.8],
+            "description": "Gulf Coastal Resilience: informing the identification of restoration projects with maximum socio-economic and ecological benefits",
+            "thumbnailUrl": "/img/geo-postcards/gulfMexico_3.png",
+            "detailUrl": "http://coastalresilience.org/gulfmex",
+            "location": [-93.34, 29.0],
             "regions": [
                 {
                     "name": "Florida",
                     "description": "",
-                    "thumbnailUrl": "",
+                    "thumbnailUrl": "/img/geo-postcards/map_florida.png",
                     "regions": [
                         {
                             "name": "Florida Keys",
-                            "description": "",
+                            "description": "Building green infrastructure into protection of vulnerable island communities",
+                            "location": [-81.85, 24.85],
                             "url": "http://google.com",
-                            "thumbnailUrl": ""
+                            "detailUrl": "http://coastalresilience.org/geographies/florida-keys",
+                            "thumbnailUrl": "/img/geo-postcards/FloridaKeys.png"
                         },
                         {
                             "name": "Charlotte Harbor",
                             "description": "",
                             "url": "http://google.com",
-                            "thumbnailUrl": ""
+                            "thumbnailUrl": "/img/geo-postcards/map_charlotte_harbor.png"
                         }
                     ]
                 },
                 {
                     "name": "Texas",
                     "description": "",
-                    "thumbnailUrl": "",
+                    "thumbnailUrl": "/img/geo-postcards/map_texas.png",
                     "regions": [
                         {
                             "name": "Galveston Bay",
                             "description": "",
                             "url": "http://google.com",
-                            "thumbnailUrl": ""
+                            "thumbnailUrl": "/img/geo-postcards/map_galveston.png"
                         }
                     ]
                 }
@@ -76,46 +85,50 @@
         {
             "name": "U.S. East Coast",
             "description": "",
-            "thumbnailUrl": "",
-            "location": [-70.8, 41.8],
+            "thumbnailUrl": "/img/geo-postcards/map_east_coast.png",
             "regions": [
                 {
                     "name": "New York and Connecticut (Long Island Sound)",
-                    "description": "",
+                    "description": "New York and Connecticut: visualizing coastal impacts, planning wisely for the future, and advancing adaptive responses today",
                     "url": "http://google.com",
-                    "thumbnailUrl": ""
+                    "location": [-72.82, 41.18],
+                    "detailUrl": "http://coastalresilience.org/geographies/new-york-and-connecticut",
+                    "thumbnailUrl": "/img/geo-postcards/ny-ct.png"
                 }
             ]
         },
         {
             "name": "U.S. West Coast",
             "description": "",
-            "thumbnailUrl": "",
-            "location": [-122.2, 37.2],
+            "thumbnailUrl": "/img/geo-postcards/map_west_coast.png",
             "regions": [
                 {
                     "name": "California",
                     "description": "",
-                    "thumbnailUrl": "",
+                    "thumbnailUrl": "/img/geo-postcards/map_california.png",
                     "regions": [
                         {
                             "name": "Ventura County",
-                            "description": "",
+                            "description": "Helping Nature Help You",
                             "url": "http://google.com",
-                            "thumbnailUrl": ""
+                            "location": [-119.34, 34.23],
+                            "detailUrl": "http://coastalresilience.org/geographies/ventura-county",
+                            "thumbnailUrl": "/img/geo-postcards/California3.png"
                         }
                     ]
                 },
                 {
                     "name": "Washington",
                     "description": "",
-                    "thumbnailUrl": "",
+                    "thumbnailUrl": "/img/geo-postcards/map_washington.png",
                     "regions": [
                         {
                             "name": "Puget Sound",
-                            "description": "",
+                            "description": "Helping Puget Sound communities plan for change: Dynamic visualizations, scenario planning, and identifying cost-effective solutions",
                             "url": "",
-                            "thumbnailUrl": ""
+                            "location": [-122.47, 47.89],
+                            "detailUrl": "http://coastalresilience.org/geographies/puget-sound",
+                            "thumbnailUrl": "/img/geo-postcards/PugetSound.png"
                         }
                     ]
                 }
@@ -123,10 +136,27 @@
         },
         {
             "name": "Baja California",
+            "description": "Adapting to climate impacts represents a huge challenge, but also an opportunity",
+            "thumbnailUrl": "/img/geo-postcards/Gulf_CA.png",
+            "location": [-113.96, 30.54],
+            "url": "http://google.com",
+            "detailUrl": "http://coastalresilience.org/geographies/gulf-california"
+        },
+        {
+            "name": "Asia",
             "description": "",
-            "thumbnailUrl": "",
-            "location": [-114.3, 28.7],
-            "url": "http://google.com"
+            "thumbnailUrl": "/img/geo-postcards/map_asia.png",
+            "detailUrl": "http://coastalresilience.org/geographies/gulf-california",
+            "regions": [
+                {
+                    "name": "Papua New Guinea/Solomon Islands",
+                    "description": "",
+                    "url": "",
+                    "location": [149.9, -4.0],
+                    "detailUrl": "http://coastalresilience.org/geographies/puget-sound",
+                    "thumbnailUrl": "/img/geo-postcards/SolomonIslands.png"
+                }
+            ]
         }
     ]
 }

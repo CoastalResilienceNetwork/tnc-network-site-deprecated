@@ -9,6 +9,7 @@
         <title>TNC Coastal Resilience Network</title>
         <meta name="description" content="">
 
+        <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
         <link rel="stylesheet" href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.3/js/esri/css/esri.css">
         <link rel="stylesheet" href="css/foundation.min.css">
         <link rel="stylesheet" href="css/app.css">
@@ -62,25 +63,28 @@
                     <div class="region-detail nine columns">
                         <div class="region-name"><%= name %></div>
                         <div class="region-desc"><%= description %></div>
+                        <% if (typeof detailUrl !== 'undefined' && detailUrl) { %>
+                        <a href="<%= detailUrl %>" class="button">Background</a>
+                        <% } %>
                         <% if (typeof url !== 'undefined' && url) { %>
                             <a href="<%= url %>" class="button">Map this site</a>
                         <% } %>
-                        <div class="row sub-list">
-
-                        </div>
+                        <div class="row sub-list"></div>
                     </div>
                 </div>
             </div>
         </script>
-        
+
         <script src="js/vendor/foundation.min.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
-        <script src="js/vendor/jquery.scrollTo.min.js"></script>
+
         <script src="js/vendor/jquery.tipsy.min.js"></script>
+        <script src="js/vendor/jquery.visible.min.js"></script>
         <script src="//serverapi.arcgisonline.com/jsapi/arcgis/?v=3.3compact"></script>
         <script src="js/TNC.js"></script>
         <script src="js/TemplateLoader.js"></script>
+        <script src="js/RegionExpander.js"></script>
         <script src="js/App.js"></script>
         <script src="js/RegionList.js"></script>
         <script src="js/Map.js"></script>
