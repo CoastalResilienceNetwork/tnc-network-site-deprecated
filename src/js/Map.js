@@ -46,8 +46,8 @@
 
         function scrollToRegion(evt) {
             if (evt.graphic) {
-                N.regionExpander($el, true);
                 var $el = evt.graphic.attributes.$el.children('.region-header');
+                N.regionExpander($el, {scroll: true, clickToClose: false});
             }
         }
 
