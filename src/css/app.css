@@ -171,7 +171,38 @@ h1, h2, h3, h4, h5, h6 {
                 margin-bottom: 5px;
             }
     
-        
+#footer {
+    padding: 15px;
+}
+
+ul {
+    list-style: none;
+}
+#block-menu-menu-footer-navigation ul.menu li {
+    float: left;
+    line-height: 1.3em;
+}
+
+#block-menu-menu-footer-navigation ul.menu li a {
+    display: block;
+    font-weight: bold;
+    border-right: 1px solid #666666;
+    padding: 0 11px;
+    font-size: 11px;
+}
+
+#block-menu-menu-footer-navigation ul.menu li.last a {
+    border: none;
+}
+
+#footer #block-block-11 p {
+    color: #515151;
+    font-size: 11px;
+}
+#block-menu-menu-footer-navigation ul.menu {
+    font-size: 11px;
+    float: right;
+}
 /* -----------------------------------------
    Media Queries
 ----------------------------------------- */
