@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
             border-bottom: 45px solid transparent;
         }
         .top-bar ul > li.name h1 a {
-            color: #30BBC1;
+            color: #26648E;
             text-transform: uppercase;
             font-size: 16px !important;
         }
@@ -105,13 +105,25 @@ h1, h2, h3, h4, h5, h6 {
 
 #site-details {
     padding: 0 15px;
-}
+    }
+    #site-details > h3 {
+        color: #58585B;
+        font-size: 30px;
+        font-weight: 400;
+
+    }
+    #site-details > div {
+        font-size: 16px;
+        line-height: 21px;
+        color: #939597;
+    }
 
 #site-blocks {
     margin: 25px 0;
     }
-    #site-blocks > .region {
-        
+    #site-blocks > .region {}
+        #site-blocks > .region .button {
+
         }
         #site-blocks > .region > .row {
             margin-top: 15px;
@@ -127,13 +139,16 @@ h1, h2, h3, h4, h5, h6 {
             color: #888;
             cursor: pointer;
             }
-            #site-blocks > .region:last-child .region-header {
+            #site-blocks > .region .region-header:hover {
+                background: #E1E2E2;
+            }
+            #site-blocks > .region:last-child > .region-header {
                 border-bottom: 1px solid #CCC;
             }
             #site-blocks > .region .region-header.active {
-                border-top: 1px solid #CCC;
-                border-bottom: 1px solid #CCC;
-                background: #30BBC1;
+                border-top: 1px solid #26648E;
+                border-bottom: 1px solid #26648E;
+                background: #26648E;
                 color: #FFF;
             }
             
@@ -150,15 +165,19 @@ h1, h2, h3, h4, h5, h6 {
             }
             #site-blocks > .region .region-detail .region-desc {
                     margin-bottom: 10px;
-                    font-size: 14px;
-                    line-height: 18px;
+                    font-size: 16px;
+                    line-height: 21px;
+                    color: #939597;
                 }
                 #site-blocks > .region .region-detail .sub-list {
                 
                     }
                     #site-blocks > .region .region-detail .sub-list .region:last-child .region-header {
                         border-bottom: 1px solid #CCC;
-                    }
+                        }
+                        #site-blocks > .region .region-detail .sub-list .region:last-child .region-header.active {
+                            border-bottom: 1px solid #26648E;
+                        }
                     #site-blocks > .region .region-detail .sub-list .region > .row {
                         margin-top: 15px;
                     }
@@ -168,7 +187,7 @@ h1, h2, h3, h4, h5, h6 {
                 
             #site-blocks > .region .region-detail .button {
                 margin-right: 5px;
-                margin-bottom: 5px;
+                margin-bottom: 15px;
             }
     
 #footer {
@@ -186,13 +205,14 @@ ul {
 #block-menu-menu-footer-navigation ul.menu li a {
     display: block;
     font-weight: bold;
-    border-right: 1px solid #666666;
+    border-right: 1px solid #CCC;
     padding: 0 11px;
     font-size: 11px;
 }
 
 #block-menu-menu-footer-navigation ul.menu li.last a {
     border: none;
+    padding-right: 0;
 }
 
 #footer #block-block-11 p {
