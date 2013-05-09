@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0 15px;
     }
     #site-details > h3 {
-        color: #58585B;
+        color: #000;
         font-size: 30px;
         font-weight: 400;
 
@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
     #site-details > div {
         font-size: 16px;
         line-height: 21px;
-        color: #939597;
+        color: #212323;
     }
 
 #site-blocks {
@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
                     margin-bottom: 10px;
                     font-size: 16px;
                     line-height: 21px;
-                    color: #939597;
+                    color: #212323;
                 }
                 #site-blocks > .region .region-detail .sub-list {
                 

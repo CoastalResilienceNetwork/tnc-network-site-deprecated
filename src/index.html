@@ -23,16 +23,16 @@
             <nav class="top-bar">
                 <ul>
                     <li class="name">
-                        <h1><a href="#">Coastal Resilience Network</a></h1>
+                        <h1><a href="http://www.coastalresilience.org/" target="_blank">Coastal Resilience</a></h1>
                     </li>
                     <!-- USED FOR SMALLER SCREENS TO CONDENSE NAVIGATION -->
                     <li class="toggle-topbar"><a href="#"></a></li>
                 </ul>
                 <section>
                     <ul class="right">
-                        <li><a href="#">The Nature Conservancy</a></li>
+                        <li><a href="http://www.nature.org/" target="_blank">The Nature Conservancy</a></li>
                         <li class="divider"></li>
-                        <li><a href="#">Coastal Resilience</a></li>
+                        <li><a href="http://www.coastalresilience.org/" target="_blank">Coastal Resilience</a></li>
                     </ul>
                 </section>
             </nav>
@@ -76,10 +76,10 @@
                     <div class="region-detail nine columns">
                         <div class="region-desc"><%= description %></div>
                         <% if (typeof detailUrl !== 'undefined' && detailUrl) { %>
-                        <a href="<%= detailUrl %>" class="secondary button radius">Background</a>
+                        <a href="<%= detailUrl %>" class="secondary button radius" target="_blank">Background</a>
                         <% } %>
                         <% if (typeof url !== 'undefined' && url) { %>
-                            <a href="<%= url %>" class="secondary button radius">Map this site</a>
+                            <a href="<%= url %>" class="secondary button radius" target="_blank">Map this site</a>
                         <% } %>
                         <div class="row sub-list"></div>
                     </div>
