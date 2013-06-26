@@ -15,7 +15,16 @@
                     // Scroll the window to make sure the last child is shown
                     var $dest = $($el.siblings().children().last()),
                         top = $dest.offset().top - $dest.height();
+
+                    // This is called twice, once for ie+firefox, once for chrome
+                    // In each case it is a noop for the browser it doesn't work
+                    // in, so it's safe to call twice. This was required because
+                    // document.documentElement is defined even in browsers where
+                    // it will not scroll, so $(document.documentElement || 'body')
+                    // will always select the documentElement.
+                    $(document.documentElement).animate({scrollTop: top}, 400);
                     $('body').animate({scrollTop: top}, 400);
+
                 }
             },
 
