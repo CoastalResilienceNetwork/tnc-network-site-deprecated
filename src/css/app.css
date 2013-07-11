@@ -223,6 +223,13 @@ ul {
     font-size: 11px;
     float: right;
 }
+
+#myModal iframe {  
+    width: 100%;
+    min-height: 400px;
+}
+
+
 /* -----------------------------------------
    Media Queries
 ----------------------------------------- */
