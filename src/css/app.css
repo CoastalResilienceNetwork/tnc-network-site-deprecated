@@ -229,6 +229,9 @@ ul {
     min-height: 400px;
 }
 
+#partner-logos img {
+    margin-right: 10px;
+}
 
 /* -----------------------------------------
    Media Queries
