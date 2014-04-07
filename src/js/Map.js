@@ -30,18 +30,21 @@
 
         function markerMouseOver(evt) {
             _map.setMapCursor('pointer');
-            if (evt.graphic) {
-                $(evt.target).tipsy({
+            if (evt.graphic && evt.graphic.attributes) {
+                var el = N.SvgDomWrapper(evt.target);
+                $(el).tipsy({
                     gravity: 's',
                     title: function() {
                         return evt.graphic.attributes.name
-                    }
-                });
+                    },
+                    trigger: 'manual'
+                }).tipsy('show');
             }
         }
 
         function markerMouseOut(evt) {
             _map.setMapCursor('default');
+            $(evt.target).tipsy('hide');
         }
 
         function scrollToRegion(evt) {
