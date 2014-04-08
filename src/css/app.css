@@ -247,3 +247,6 @@ ul {
         border-bottom: 1px solid rgba(255,255,255,0.5);
     }
 }
+
+/* Move the tooltip tail slightly left of center because the marker image is not center aligned. */
+.tipsy-s .tipsy-arrow { margin-left: -14px; }
