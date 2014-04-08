@@ -10,8 +10,8 @@
         function initializeMap(callback) {
             _map = new esri.Map('map', {
                 basemap: 'oceans',
-                center: [-120.5, 25.5],
-                zoom: 3,
+                center: [-93, 34.5],
+                zoom: 4,
                 sliderStyle: 'small',
                 logo: false
             });
