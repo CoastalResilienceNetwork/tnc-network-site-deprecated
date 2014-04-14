@@ -124,10 +124,14 @@
             }
         }
 
+        function getEsriMap() {
+            return _map;
+        }
+
         return {
             init: initializeMap,
             addMarker: addMarker,
-            esriMap: _map
+            getEsriMap: getEsriMap
         }
     }
 }(TNC));
