@@ -33,6 +33,11 @@
                     N.regionExpander($(evt.target), {scroll: true, clickToClose: true});
                 })
                 .siblings().hide();
+
+            _.each(sites.layers, function(layer) {
+                var agsLayer = new esri.layers.ArcGISDynamicMapServiceLayer(layer.url);
+                _map.getEsriMap().addLayer(agsLayer);
+            });
         }
 
         function renderRegion(region) {

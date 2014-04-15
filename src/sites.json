@@ -6,6 +6,9 @@
         "url": "http://dev.maps.coastalresilience.org/global/",
         "detailUrl": "http://coastalresilience.org/resources/world-risk-report-2012"
     },
+    "layers": [
+        { "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Network/Sites/MapServer" }
+    ],
     "regions": [
         {
             "name": "Asia and the Pacific",
