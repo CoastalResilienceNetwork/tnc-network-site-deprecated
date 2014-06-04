@@ -89,6 +89,9 @@
                         <% if (typeof url !== 'undefined' && url) { %>
                             <a href="<%= url %>" class="secondary button radius" target="_blank">Map</a>
                         <% } %>
+                        <% if (typeof whatsNew !== 'undefined' && whatsNew && whatsNew.url) { %>
+                          <a href="<%= whatsNew.url %>" title="<%= whatsNew.description %>" class="whatsnew secondary button radius" target="_blank">What's New?</a>
+                        <% } %>
                         <div class="row sub-list"></div>
                     </div>
                 </div>

@@ -58,14 +58,16 @@
                 $sublist.append.apply($sublist, subregions);
             }
 
+            $markup.find('.whatsnew').tipsy();
+
             // A complete nested region
             return $markup;
         }
 
         return {
             renderListAndMap: renderListAndMap
-        }
-    }
+        };
+    };
 
 }(TNC));
 
