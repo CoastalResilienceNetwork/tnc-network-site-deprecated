@@ -4,7 +4,11 @@
         "description": "The Global Coastal Resilience tools provide support for decision-makers working at national and multi-national scales in assessing where to act in risk reduction, adaptation and conservation. They build from critical resources such as the Global Platform on Risk Reduction, World Risk Report, and Conservation Atlas.",
         "thumbnailUrl": "img/geo-postcards/Global2.png",
         "url": "http://dev.maps.coastalresilience.org/global/",
-        "detailUrl": "http://coastalresilience.org/resources/world-risk-report-2012"
+        "detailUrl": "http://coastalresilience.org/resources/world-risk-report-2012",
+        "whatsNew": {
+            "url": "http://goo.gl/8b2VuJ",
+            "description": "TODO: New plugin added, but this is extra text to see how the tooltip expands"
+        }
     },
     "layers": [
         { "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Network/Sites/MapServer" }
@@ -59,6 +63,10 @@
             "thumbnailUrl": "img/geo-postcards/gulfMexico_3.png",
             "detailUrl": "http://coastalresilience.org/gulfmex",
             "url": "http://dev.maps.coastalresilience.org/gulfmex/",
+            "whatsNew": {
+                "url": "http://goo.gl/ae1KBq",
+                "description": "TODO: Added new coastal layers in Map Layers tool"
+            },
             "stickyTooltip": true,
             "location": [
                 -93.34,
