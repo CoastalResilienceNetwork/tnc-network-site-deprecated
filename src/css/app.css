@@ -12,7 +12,7 @@
    Shared Styles
 ----------------------------------------- */
 
-@import url(http://fonts.googleapis.com/css?family=Archivo+Narrow:400,700);
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:400,700,300);
 
 html, body {
     height: 100%;
@@ -20,10 +20,13 @@ html, body {
 
     /* overflow: auto;    WARNING: Page will NOT scroll with this set */
 
-    font-family: 'Archivo Narrow', 'Arial Narrow', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Archivo Narrow', 'Arial Narrow', Arial, Helvetica, sans-serif;
+h1, h2 {
+    font-family: 'Fjalla One', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+h3, h4, h5, h6 {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
 
@@ -57,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
             border-bottom: 45px solid transparent;
         }
         .top-bar ul > li.name h1 a {
-            color: #26648E;
+            color: #94A4AA;
             text-transform: uppercase;
             font-size: 16px !important;
         }
@@ -107,20 +110,22 @@ h1, h2, h3, h4, h5, h6 {
 .content {
     margin: 20px auto;
 }
+.tipsy-inner {
+    padding: 8px 12px 8px 12px;
+}
 
 #site-details {
     padding: 0 15px;
     }
-    #site-details > h3 {
-        color: #000;
-        font-size: 30px;
-        font-weight: 400;
-
+    #site-details > h1 {
+        color: #223138;
+        font-size: 36px;
+        text-transform: uppercase;
     }
     #site-details > div {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 21px;
-        color: #212323;
+        color: #405D68;
     }
 
 #site-blocks {
@@ -128,21 +133,31 @@ h1, h2, h3, h4, h5, h6 {
     }
     #site-blocks > .region {}
         #site-blocks > .region .button {
-
-        }
+            background: #80B84D;
+            color: white;
+            box-shadow: none;
+            border: none;
+            border-radius: 0;
+            padding: 12px 20px 14px;
+            }
+            #site-blocks > .region .button.primary {
+                background: #1590FF;
+            }
         #site-blocks > .region > .row {
-            margin-top: 15px;
+            margin-top: 25px;
         }
         #site-blocks > .region .region-header {
-            height: 45px;
+            height: 52px;
             border-top: 1px solid #CCC;
             border-bottom: 1px solid transparent;
             background: #F1F2F2;
-            font-size: 24px;
-            line-height: 42px;
-            padding-left: 12px;
+            font-size: 21px;
+            line-height: 50px;
+            padding-left: 14px;
             color: #888;
             cursor: pointer;
+            font-family: 'Fjalla One', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+            text-transform: uppercase;
             }
             #site-blocks > .region .region-header:hover {
                 background: #E1E2E2;
@@ -151,9 +166,9 @@ h1, h2, h3, h4, h5, h6 {
                 border-bottom: 1px solid #CCC;
             }
             #site-blocks > .region .region-header.active {
-                border-top: 1px solid #26648E;
-                border-bottom: 1px solid #26648E;
-                background: #26648E;
+                border-top: 1px solid #24648D;
+                border-bottom: 1px solid #24648D;
+                background: #24648D;
                 color: #FFF;
             }
             
@@ -162,17 +177,17 @@ h1, h2, h3, h4, h5, h6 {
             margin-bottom: 20px;
         }
         #site-blocks > .region .region-detail {
-            margin-bottom: 20px;
+            margin-bottom: 25px;
             }
             #site-blocks > .region .region-detail .region-name {
                 margin-bottom: 8px;
                 font-size: 18px;
             }
             #site-blocks > .region .region-detail .region-desc {
-                    margin-bottom: 10px;
-                    font-size: 16px;
+                    margin-bottom: 20px;
+                    font-size: 14px;
                     line-height: 21px;
-                    color: #212323;
+                    color: #405D68;
                 }
                 #site-blocks > .region .region-detail .sub-list {
                 
