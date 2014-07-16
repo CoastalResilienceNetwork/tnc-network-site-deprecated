@@ -36,7 +36,8 @@
         function markerMouseOver(evt) {
             _map.setMapCursor('pointer');
             if (evt.graphic && evt.graphic.attributes) {
-                displayTooltip(evt.target, evt.graphic.attributes.name);
+                displayTooltip(evt.target, evt.graphic.attributes.name,
+                    evt.graphic.attributes.gravity);
             }
         }
 
@@ -49,16 +50,17 @@
             }
         }
 
-        function displayTooltip(el, tooltipText) {
+        function displayTooltip(el, tooltipText, gravity) {
             if (!el) {
                 return;
             }
             el = N.SvgDomWrapper(el);
             $(el).tipsy({
-                gravity: 's',
+                gravity: gravity,
                 title: function() {
                     return tooltipText;
                 },
+                html: true,
                 trigger: 'manual'
             }).tipsy('show');
         }
@@ -84,7 +86,8 @@
             $.fn.tipsy.revalidate();
             $.each(_markers, function(i, graphic) {
                 if (graphic.attributes.isSticky) {
-                    displayTooltip(graphic.getNode(), graphic.attributes.name);
+                    displayTooltip(graphic.getNode(), graphic.attributes.name,
+                        graphic.attributes.gravity);
                 }
             });
         }
@@ -110,7 +113,12 @@
                 ),
                 tooltipText = region.name,
                 isSticky = !!region.stickyTooltip,
-                attributes = {name: tooltipText, $el: $(el), isSticky: isSticky},
+                gravity = region.tooltipGravity || 's',
+                attributes = {
+                    name: tooltipText,
+                    $el: $(el),
+                    isSticky: isSticky,
+                    gravity: gravity },
                 graphic = new esri.Graphic(point, marker, attributes),
                 smallPoint = new esri.Graphic(point, pointSymbol);
 
@@ -120,7 +128,7 @@
             _map.graphics.add(smallPoint);
 
             if (isSticky) {
-                displayTooltip(graphic.getNode(), tooltipText);
+                displayTooltip(graphic.getNode(), tooltipText, gravity);
             }
         }
 
@@ -132,6 +140,6 @@
             init: initializeMap,
             addMarker: addMarker,
             getEsriMap: getEsriMap
-        }
-    }
+        };
+    };
 }(TNC));

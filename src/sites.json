@@ -121,7 +121,7 @@
             "thumbnailUrl": "img/geo-postcards/EastCoast.png",
             "regions": [
                 {
-                    "name": "New York and Connecticut",
+                    "name": "<i>New</i> York and Connecticut",
                     "description": "Visualizing coastal impacts, planning wisely for the future, taking action today",
                     "url": "http://dev.maps.coastalresilience.org/nyct",
                     "location": [
@@ -129,10 +129,12 @@
                         41.18
                     ],
                     "detailUrl": "http://coastalresilience.org/geographies/new-york-and-connecticut",
-                    "thumbnailUrl": "img/geo-postcards/ny-ct.png"
+                    "thumbnailUrl": "img/geo-postcards/ny-ct.png",
+                    "tooltipGravity": "nw",
+                    "stickyTooltip": true
                 },
                 {
-                    "name": "New Jersey",
+                    "name": "New <b>J</b>ersey",
                     "description": "Using natural infrastructure to build resiliency in New Jersey’s coastal communities",
                     "location": [
                         -74.20,
@@ -140,7 +142,9 @@
                     ],
                     "url": "http://dev.maps.coastalresilience.org/nj",
                     "detailUrl": "http://coastalresilience.org/geographies/new-york-and-connecticut",
-                    "thumbnailUrl": "img/geo-postcards/NewJersey2.png"
+                    "thumbnailUrl": "img/geo-postcards/NewJersey2.png",
+                    "tooltipGravity": "e",
+                    "stickyTooltip": true
                 }
             ]
         },
