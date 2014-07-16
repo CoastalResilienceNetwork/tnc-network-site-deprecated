@@ -129,7 +129,9 @@
                         41.18
                     ],
                     "detailUrl": "http://coastalresilience.org/geographies/new-york-and-connecticut",
-                    "thumbnailUrl": "img/geo-postcards/ny-ct.png"
+                    "thumbnailUrl": "img/geo-postcards/ny-ct.png",
+                    "tooltipGravity": "nw",
+                    "stickyTooltip": true
                 },
                 {
                     "name": "New Jersey",
@@ -140,7 +142,9 @@
                     ],
                     "url": "http://dev.maps.coastalresilience.org/nj",
                     "detailUrl": "http://coastalresilience.org/geographies/new-york-and-connecticut",
-                    "thumbnailUrl": "img/geo-postcards/NewJersey2.png"
+                    "thumbnailUrl": "img/geo-postcards/NewJersey2.png",
+                    "tooltipGravity": "e",
+                    "stickyTooltip": true
                 }
             ]
         },
