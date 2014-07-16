@@ -60,6 +60,7 @@
                 title: function() {
                     return tooltipText;
                 },
+                html: true,
                 trigger: 'manual'
             }).tipsy('show');
         }
