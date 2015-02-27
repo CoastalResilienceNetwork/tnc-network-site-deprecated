@@ -1,33 +1,14 @@
 ﻿{
     "global": {
-        "name": "Global",
-        "description": "The Global Coastal Resilience tools provide support for decision-makers working at national and multi-national scales in assessing where to act in risk reduction, adaptation and conservation. They build from critical resources such as the Global Platform on Risk Reduction, World Risk Report, and Conservation Atlas.",
+        "name": "Global Platform, World Risk, Conservation Atlas",
+        "description": "The Coastal Resilience tools provide support for decision-makers working at national and multi-national scales in assessing where to act in risk reduction, adaptation and conservation. They build from critical resources such as the Global Platform on Risk Reduction, World Risk Report, and Conservation Atlas.",
         "thumbnailUrl": "img/geo-postcards/Global2.png",
-        "url": "http://dev.maps.coastalresilience.org/global/",
-        "detailUrl": "http://coastalresilience.org/resources/world-risk-report-2012",
-        "whatsNew": {
-            "url": "http://goo.gl/8b2VuJ",
-            "description": "TODO: New plugin added, but this is extra text to see how the tooltip expands"
-        }
+        "url": "http://maps.coastalresilience.org/global/"
     },
     "layers": [
-        { "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Network/Sites/MapServer" }
+        { "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Network/Sites/MapServer" }
     ],
     "regions": [
-        {
-            "name": "Asia and the Pacific",
-            "description": "In Micronesia, Papua New Guinea, and the Solomon Islands our Coastal Resilience approach has focused on building the adaptive capacity of social and ecological resources and efforts to minimize impacts from natural disasters. By integrating disaster risk reduction plans with adaptation solutions, The Nature Conservancy and partners are supporting the development of national plans of action that include precautionary and response measures to disasters. TNC and partners are also working with local communities to discuss the impacts of climate change, train adaptation experts, identify adaptation options and develop adaptation plans.",
-	    "thumbnailUrl": "img/geo-postcards/AsiaAndThePacific.png",
-            "regions": [
-                {
-                    "name": "Papua New Guinea and Solomon Islands",
-                    "description": "Addressing adaptation through building social and environmental resilience and adaptive capacity at the local level, raising awareness of climate issues, and illustrating how conservation activities lower risk. The emphasis is on the essential role of communities and their traditional methods to craft solutions that are both locally relevant and realistic.",
-                    "location": [149.9, -4.0],
-                    "thumbnailUrl": "img/geo-postcards/SolomonIslands.png",
-                    "detailUrl": "http://coastalresilience.org/geographies/solomon-islands-and-papua-new-guinea"
-                }
-            ]
-        },
         {
             "name": "Caribbean",
             "description": "The impacts of climate change are increasingly seen across the Caribbean basin, a region where densely populated often low lying coastal areas are threatened by hurricanes, as well as rising warmer oceans.  Given the high dependency in the Caribbean on natural resources for livelihoods, a focus on ecosystems and their interaction with people is essential for climate change adaptation.  Our work in this region is focused on helping communities and government increase their resilience to climate change by protecting, restoring and sustainably managing their marine and coastal systems and strengthening local capacity for adaptation.",
@@ -40,8 +21,7 @@
                         -61.04,
                         12.83
                     ],
-                    "url": "http://dev.maps.coastalresilience.org/svtg",
-                    "detailUrl": "http://coastalresilience.org/awe",
+                    "url": "http://maps.coastalresilience.org/gsvg",
                     "thumbnailUrl": "img/geo-postcards/AWE.png"
                 },
                 {
@@ -51,128 +31,106 @@
                         -64.78,
                         17.72
                     ],
-                    "url": "http://dev.maps.coastalresilience.org/usvi",
-                    "detailUrl": "http://coastalresilience.org/geographies/us-virgin-islands",
+                    "url": "http://maps.coastalresilience.org/usvi",
                     "thumbnailUrl": "img/geo-postcards/USVirginIslands.png"
-                }
-            ]
-        },
-        {
-            "name": "Gulf of Mexico",
-            "description": "With its high incidence of storms and hurricanes and valuable ecological and economic resources, the Gulf region is a high-risk area with great potential to demonstrate natural risk reduction solutions. The Coastal Resilience approach and tools have been applied Gulf-wide and at specific sites, including those that help identify where to implement oyster reef restoration to meet social and ecological goals. Oyster restoration demonstration projects with partners like the National Oceanic and Atmospheric Administration (NOAA) and Army Corps of Engineers (ACOE) creates a strong base for replication and scaling-up to larger projects.",
-            "thumbnailUrl": "img/geo-postcards/gulfMexico_3.png",
-            "detailUrl": "http://coastalresilience.org/gulfmex",
-            "url": "http://dev.maps.coastalresilience.org/gulfmex/",
-            "whatsNew": {
-                "url": "http://goo.gl/ae1KBq",
-                "description": "TODO: Added new coastal layers in Map Layers tool"
-            },
-            "stickyTooltip": true,
-            "location": [
-                -93.34,
-                29
-            ],
-            "regions": [
-                {
-                    "name": "Florida Keys",
-                    "description": "Restoring natural areas so they can protect vulnerable island communities",
-                    "location": [
-                        -81.85,
-                        24.85
-                    ],
-                    "url": "http://dev.maps.coastalresilience.org/flkeys",
-                    "detailUrl": "http://coastalresilience.org/geographies/florida-keys",
-                    "thumbnailUrl": "img/geo-postcards/FloridaKeys.png"
-                }
+				}
             ]
         },
         {
             "name": "Mexico and Central America",
             "description": "The Government of Mexico’s adoption of an approach to climate and disaster risk reduction based in natural solutions is essential to protect its people and infrastructure, and our Coastal Resilience approach and team has a real opportunity to work with the Mexican government and its international policy delegations to influence peer countries in Latin America and emerging economies globally.",
-	        "thumbnailUrl": "img/geo-postcards/Mexico2.png",
+	        "thumbnailUrl": "img/geo-postcards/Mexico3.png",
             "regions": [
                 {
-                    "name": "Gulf of California",
-                    "description": "Determining the climate change impacts on Marismas Nacionales, one of Mexico’s most important wetland ecosystems in Sinaloa and Nayarit, and developing appropriate adaptation strategies for conservation at the coastal wetland and watershed levels.",
-                    "location": [
-                        -113.96,
-                        30.54
-                    ],
-                    "url": "http://dev.maps.coastalresilience.org/goc",
-                    "detailUrl": "http://coastalresilience.org/geographies/gulf-california",
-                    "thumbnailUrl": "img/geo-postcards/Gulf_CA.png"
-					},
-					{
                     "name": "Mesoamerican Reef",
                     "description": "The Mesomerican Reef supports multi-billion dollar tourism and fisheries industries, key income for Mexico, Belize, Guatemala and Honduras. Two million people live along the coast, rapidly developing despite being threatened by tropical storms and sea level rise. Partners in this Coastal Resilience project are working with governments, real state developers, tourism and fisheries sectors to adopt practices that better conserves natural coastlines while reducing people´s vulnerability to climate events.",
                     "location": [
                         -86.75,
                         17.41
                     ],
-                    "url": "http://dev.maps.coastalresilience.org/mar",
-                    "detailUrl": "http://coastalresilience.org/mar",
+                    "url": "http://maps.coastalresilience.org/mar",
                     "thumbnailUrl": "img/geo-postcards/mesoAmerican_5.png"
                 }
             ]
         },
-        {
-            "name": "U.S. East Coast",
-            "description": "The northeast coast of the United States is among the most heavily developed in the world. Much of this coastal property is only inches above existing sea level, putting billions of dollars in public and private funds and business at risk. Coastal wetlands and other ecosystems provide habitat, natural buffers from storms, and other natural benefits, are also at great risk of loss due to sea level rise.",
-            "thumbnailUrl": "img/geo-postcards/EastCoast.png",
+		{
+  		   "name": "United States",
+			"description": "The US Coastal Resilience tools provide support for decision-makers working in the continental US identify solutions for risk reduction and conservation. They build from critical resources provided by many groups and agencies including NOAA, USGS, FEMA, USFWS, TNC and the Natural Capital Project.",
+			"thumbnailUrl": "img/geo-postcards/US_2.png",
+			"url": "http://maps.coastalresilience.org/us/",
             "regions": [
                 {
-                    "name": "<i>New</i> York and Connecticut",
+					"name": "Gulf of Mexico",
+					"description": "With its high incidence of storms and hurricanes and valuable ecological and economic resources, the Gulf region is a high-risk area with great potential to demonstrate natural risk reduction solutions. The Coastal Resilience approach and tools have been applied Gulf-wide and at specific sites, including those that help identify where to implement oyster reef restoration to meet social and ecological goals. Oyster restoration demonstration projects with partners like the National Oceanic and Atmospheric Administration (NOAA) and Army Corps of Engineers (ACOE) creates a strong base for replication and scaling-up to larger projects.",
+					"url": "http://maps.coastalresilience.org/gulfmex/",
+					"whatsNew": {
+						"url": "http://coastalresilience.org/project-areas/gulf-of-mexico",
+						"description": "New project information and featured stories"
+				},
+					"location": [
+						-93.34,
+						29
+					],
+					"thumbnailUrl": "img/geo-postcards/gulfMexico_3.png"
+                },
+                {
+                    "name": "California",
+                    "description": "Coastal Resilience Ventura will advance social, economic and environmental solutions to climate change and coastal hazards that are effective and cost efficient through science, decision-support tools, partnerships and policy for both people and nature",
+                    "url": "http://maps.coastalresilience.org/ventura",
+                    "location": [
+						-119.34,
+						34.23
+                    ],
+					"thumbnailUrl": "img/geo-postcards/California3.png"
+				},
+                {
+					"name": "Connecticut",
                     "description": "Visualizing coastal impacts, planning wisely for the future, taking action today",
-                    "url": "http://dev.maps.coastalresilience.org/nyct",
+                    "url": "http://maps.coastalresilience.org/ct",
                     "location": [
                         -72.82,
                         41.18
                     ],
-                    "detailUrl": "http://coastalresilience.org/geographies/new-york-and-connecticut",
-                    "thumbnailUrl": "img/geo-postcards/ny-ct.png",
-                    "tooltipGravity": "nw",
-                    "stickyTooltip": true
+                    "thumbnailUrl": "img/geo-postcards/ny-ct.png"
                 },
                 {
-                    "name": "New <b>J</b>ersey",
-                    "description": "Using natural infrastructure to build resiliency in New Jersey’s coastal communities",
+					"name": "Southeast Florida",
+                    "description": "Restoring natural areas so they can protect vulnerable island communities",
+					"url": "http://maps.coastalresilience.org/seflorida",
                     "location": [
+                        -80.85,
+                        25.85
+                    ],
+                    "thumbnailUrl": "img/geo-postcards/FloridaKeys.png"
+                },
+                {
+                    "name": "New Jersey",
+                    "description": "Using natural infrastructure to build resiliency in New Jersey’s coastal communities",
+					"location": [
                         -74.20,
                         39.95
                     ],
-                    "url": "http://dev.maps.coastalresilience.org/nj",
-                    "detailUrl": "http://coastalresilience.org/geographies/new-york-and-connecticut",
-                    "thumbnailUrl": "img/geo-postcards/NewJersey2.png",
-                    "tooltipGravity": "e",
-                    "stickyTooltip": true
-                }
-            ]
-        },
-        {
-            "name": "U.S. West Coast",
-            "description": "The goals of West Coast Coastal Resilience are to: 1) improve our understanding of how climate change will impact coastal and floodplain areas;  2) combine social, economic and ecological data with future climate, fluvial, and, coastal hazard scenarios in an interactive, online decision-support tool; 3) work with local decision-makers to explore alternative climate change and disaster mitigation approaches, focusing on nature-based solutions; and, 4) provide floodplain managers with tools that integrate climate change and hazard risk information with strategies that advance flood reduction and habitat restoration goals.",
-            "thumbnailUrl": "img/geo-postcards/WestCoast2.png",
-            "regions": [
-                {
-                    "name": "Ventura County, California",
-                    "description": "Coastal Resilience Ventura will advance social, economic and environmental solutions to climate change and coastal hazards that are effective and cost efficient through science, decision-support tools, partnerships and policy for both people and nature",
-                    "url": "http://dev.maps.coastalresilience.org/ventura",
-                    "location": [
-                        -119.34,
-                        34.23
-                    ],
-                    "detailUrl": "http://coastalresilience.org/geographies/ventura-county",
-                    "thumbnailUrl": "img/geo-postcards/California3.png"
+                    "url": "http://maps.coastalresilience.org/nj",
+                    "thumbnailUrl": "img/geo-postcards/NewJersey2.png"
                 },
                 {
-                    "name": "Puget Sound, Washington",
+                    "name": "New York",
+                    "description": "Providing New York with the right tools, information and resources to help reduce community vulnerability, plan responsibly, and protect natural resources.",
+                    "url": "http://maps.coastalresilience.org/ny",
+                    "location": [
+                        -73,
+                        40
+                    ],
+                    "thumbnailUrl": "img/geo-postcards/ny-ct.png"
+                },
+                {
+					"name": "Puget Sound",
                     "description": "Helping Puget Sound communities visualize and plan for change",
-                    "url": "http://dev.maps.coastalresilience.org/pugetsound",
+                    "url": "http://maps.coastalresilience.org/pugetsound",
                     "location": [
                         -122.47,
                         47.89
                     ],
-                    "detailUrl": "http://coastalresilience.org/geographies/puget-sound",
                     "thumbnailUrl": "img/geo-postcards/PugetSound.png"
                 }
             ]
