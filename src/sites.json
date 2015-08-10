@@ -57,7 +57,7 @@
   		   "name": "United States",
 			"description": "The US Coastal Resilience tools provide support for decision-makers working in the continental US identify solutions for risk reduction and conservation. They build from critical resources provided by many groups and agencies including NOAA, USGS, FEMA, USFWS, TNC and the Natural Capital Project.",
 			"thumbnailUrl": "img/geo-postcards/US_2.png",
-			"url": "http://maps.coastalresilience.org/us/",
+			"url": "http://maps.coastalresilience.org/unitedstates",
             "regions": [
                 {
 					"name": "Gulf of Mexico",
@@ -75,8 +75,8 @@
                 },
                 {
                     "name": "California",
-                    "description": "Coastal Resilience Ventura will advance social, economic and environmental solutions to climate change and coastal hazards that are effective and cost efficient through science, decision-support tools, partnerships and policy for both people and nature",
-                    "url": "http://maps.coastalresilience.org/ventura",
+                    "description": "Coastal Resilience in California will advance social, economic and environmental solutions to climate change and coastal hazards that are effective and cost efficient through science, decision-support tools, partnerships and policy for both people and nature",
+                    "url": "http://maps.coastalresilience.org/california",
                     "location": [
 						-119.34,
 						34.23
@@ -86,7 +86,7 @@
                 {
 					"name": "Connecticut",
                     "description": "Visualizing coastal impacts, planning wisely for the future, taking action today",
-                    "url": "http://maps.coastalresilience.org/ct",
+                    "url": "http://maps.coastalresilience.org/connecticut",
                     "location": [
                         -72.82,
                         41.18
@@ -110,13 +110,13 @@
                         -74.20,
                         39.95
                     ],
-                    "url": "http://maps.coastalresilience.org/nj",
+                    "url": "http://maps.coastalresilience.org/newjersey",
                     "thumbnailUrl": "img/geo-postcards/NewJersey2.png"
                 },
                 {
                     "name": "New York",
                     "description": "Providing New York with the right tools, information and resources to help reduce community vulnerability, plan responsibly, and protect natural resources.",
-                    "url": "http://maps.coastalresilience.org/ny",
+                    "url": "http://maps.coastalresilience.org/newyork",
                     "location": [
                         -73,
                         40
@@ -124,7 +124,7 @@
                     "thumbnailUrl": "img/geo-postcards/ny-ct.png"
                 },
                 {
-					"name": "Puget Sound",
+					"name": "Washington",
                     "description": "Helping Puget Sound communities visualize and plan for change",
                     "url": "http://maps.coastalresilience.org/pugetsound",
                     "location": [
