@@ -12,7 +12,7 @@
             _map = new esri.Map('map', {
                 basemap: 'oceans',
                 center: [-93, 34.5],
-                zoom: 4,
+                zoom: 3,
                 sliderStyle: 'small',
                 logo: false
             });
