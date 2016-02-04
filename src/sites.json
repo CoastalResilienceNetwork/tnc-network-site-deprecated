@@ -2,16 +2,16 @@
     "global": {
         "name": "Global Platform, World Risk, Conservation Atlas",
         "description": "The Coastal Resilience tools provide support for decision-makers working at national and multi-national scales in assessing where to act in risk reduction, adaptation and conservation. They build from critical resources such as the Global Platform on Risk Reduction, World Risk Report, and Conservation Atlas.",
-		"stickyTooltip": true,
-		"location": [
-			10,
-			51
-		],
+            "stickyTooltip": true,
+        "location": [
+            10,
+            51
+        ],
         "thumbnailUrl": "img/geo-postcards/Global2.png",
-        "url": "http://dev.maps.coastalresilience.org/global/"
+        "url": "http://maps.coastalresilience.org/global/"
     },
     "layers": [
-        { "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Network/Sites/MapServer" }
+        { "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Network/Sites/MapServer" }
     ],
     "regions": [
         {
@@ -26,21 +26,17 @@
                         -61.04,
                         12.83
                     ],
-                    "url": "http://dev.maps.coastalresilience.org/gsvg",
+                    "url": "http://maps.coastalresilience.org/gsvg",
                     "thumbnailUrl": "img/geo-postcards/AWE.png"
                 },
                 {
                     "name": "U.S. Virgin Islands",
                     "description": "In the US Virgin Islands, high resolution satellite imagery and GIS-based models are being used to identify and prioritize high risk and vulnerable coastal and marine sites subject to the effects of sea level rise, increasing storm surge and intensity, and altered precipitation patterns. The impacts of future SLR and storm surge scenarios are being validated by incorporating community perception, knowledge and historic events as a baseline to better understand how ecosystem-based adaptation solutions can help increase people and nature’s resilience to these impacts.",
-					"whatsNew": {
-						"url": "http://goo.gl/ymSvmI",
-						"description": "New sea level rise scenarios and vulnerability index"
-				},
                     "location": [
                         -64.78,
                         17.72
                     ],
-                    "url": "http://dev.maps.coastalresilience.org/usvi",
+                    "url": "http://maps.coastalresilience.org/usvi",
                     "thumbnailUrl": "img/geo-postcards/USVirginIslands.png"
 				}
             ]
@@ -57,20 +53,8 @@
                         -86.75,
                         17.41
                     ],
-                    "url": "http://dev.maps.coastalresilience.org/mar",
-                    "thumbnailUrl": ""
-                },
-                {
-                    "name": "<i>NEW:</i> Baja",
-                    "description": "",
-                    "url": "http://dev.maps.coastalresilience.org/baja",
-                    "location": [
-                        -114,
-                        28
-                    ],
-                    "thumbnailUrl": "",
-                    "tooltipGravity": "e",
-                    "stickyTooltip": true
+                    "url": "http://maps.coastalresilience.org/mar",
+                    "thumbnailUrl": "img/geo-postcards/mesoAmerican_5.png"
                 }
             ]
         },
@@ -78,19 +62,19 @@
   		   "name": "United States",
 			"description": "The US Coastal Resilience tools provide support for decision-makers working in the continental US identify solutions for risk reduction and conservation. They build from critical resources provided by many groups and agencies including NOAA, USGS, FEMA, USFWS, TNC and the Natural Capital Project.",
 			"location": [
-				-100,
-				40
-			],
-			"thumbnailUrl": "img/geo-postcards/US_2.png",
-			"url": "http://dev.maps.coastalresilience.org/unitedstates",
+                -100,
+                40
+            ],
+            "thumbnailUrl": "img/geo-postcards/US_2.png",
+			"url": "http://maps.coastalresilience.org/unitedstates/",
             "regions": [
                 {
 					"name": "Gulf of Mexico",
 					"description": "With its high incidence of storms and hurricanes and valuable ecological and economic resources, the Gulf region is a high-risk area with great potential to demonstrate natural risk reduction solutions. The Coastal Resilience approach and tools have been applied Gulf-wide and at specific sites, including those that help identify where to implement oyster reef restoration to meet social and ecological goals. Oyster restoration demonstration projects with partners like the National Oceanic and Atmospheric Administration (NOAA) and Army Corps of Engineers (ACOE) creates a strong base for replication and scaling-up to larger projects.",
 					"url": "http://maps.coastalresilience.org/gulfmex/",
 					"whatsNew": {
-						"url": "http://goo.gl/CZ12RA",
-						"description": "New future habitat app illustrates and summarizes future marsh and land use patterns given sea level rise"
+						"url": "http://coastalresilience.org/project-areas/gulf-of-mexico",
+						"description": "New project information and featured stories"
 				},
 					"location": [
 						-93.34,
@@ -101,110 +85,52 @@
                 {
                     "name": "California",
                     "description": "Coastal Resilience Ventura will advance social, economic and environmental solutions to climate change and coastal hazards that are effective and cost efficient through science, decision-support tools, partnerships and policy for both people and nature",
-                    "url": "http://dev.maps.coastalresilience.org/california",
+                    "url": "http://maps.coastalresilience.org/ventura",
                     "location": [
-                        -121,
-                        38
+						-119.34,
+						34.23
                     ],
-					"thumbnailUrl": "img/geo-postcards/California3.png",
-					"regions": [
-						{
-					        "name": "Ventura County",
-							"description": "Coastal Resilience Ventura will advance social, economic and environmental solutions to climate change and coastal hazards that are effective and cost efficient through science, decision-support tools, partnerships and policy for both people and nature",
-							"url": "http://goo.gl/cFkHnF",
-							"location": [
-								-119.34,
-								34.23
-							],
-							"thumbnailUrl": "img/geo-postcards/California3.png"
-						}
-					]
+					"thumbnailUrl": "img/geo-postcards/California3.png"
 				},
                 {
-                    "name": "Connecticut",
+					"name": "Connecticut",
                     "description": "Visualizing coastal impacts, planning wisely for the future, taking action today",
-                    "url": "http://dev.maps.coastalresilience.org/connecticut",
+                    "url": "http://maps.coastalresilience.org/ct",
                     "location": [
                         -72.82,
-                        41.5
+                        41.18
                     ],
-                    "thumbnailUrl": "img/geo-postcards/ny-ct.png",
-					"tooltipGravity": "s",
-                    "stickyTooltip": false
-				},
-				{
-                    "name": "<i>NEW:</i> Hawaii",
-                    "description": "",
-                    "url": "http://dev.maps.coastalresilience.org/hawii",
+                    "thumbnailUrl": "img/geo-postcards/ny-ct.png"
+                },
+                {
+					"name": "Southeast Florida",
+                    "description": "Restoring natural areas so they can protect vulnerable island communities",
+					"url": "http://maps.coastalresilience.org/seflorida",
                     "location": [
-                        -156,
-                        19.5
+                        -80.85,
+                        25.85
                     ],
-                    "thumbnailUrl": "img/geo-postcards/anchialine_pool.jpg",
-                    "tooltipGravity": "s",
-                    "stickyTooltip": true
+                    "thumbnailUrl": "img/geo-postcards/FloridaKeys.png"
                 },
                 {
                     "name": "New Jersey",
                     "description": "Using natural infrastructure to build resiliency in New Jersey’s coastal communities",
-                    "location": [
+					"location": [
                         -74.20,
                         39.95
                     ],
-                    "url": "http://dev.maps.coastalresilience.org/newjersey",
-                    "thumbnailUrl": "img/geo-postcards/NewJersey2.png",
-                    "tooltipGravity": "e",
-                    "stickyTooltip": false
+                    "url": "http://maps.coastalresilience.org/nj",
+                    "thumbnailUrl": "img/geo-postcards/NewJersey2.png"
                 },
                 {
                     "name": "New York",
-                    "description": "Visualizing coastal impacts, planning wisely for the future, taking action today",
-                    "url": "http://dev.maps.coastalresilience.org/newyork",
+                    "description": "Providing New York with the right tools, information and resources to help reduce community vulnerability, plan responsibly, and protect natural resources.",
+                    "url": "http://maps.coastalresilience.org/ny",
                     "location": [
-                        -72.5,
-                        40.8
+                        -73,
+                        40
                     ],
-                    "thumbnailUrl": "img/geo-postcards/ny-ct.png",
-					"tooltipGravity": "w",
-                    "stickyTooltip": false
-                },
-                {
-                    "name": "<i>NEW:</i> North Carolina",
-                    "description": "",
-                    "location": [
-                        -78,
-                        34.5
-                    ],
-                    "url": "http://dev.maps.coastalresilience.org/northcarolina",
-                    "thumbnailUrl": "",
-                    "tooltipGravity": "w",
-                    "stickyTooltip": true
-                },
-                {
-                    "name": "<i>NEW:</i> South Atlantic",
-                    "description": "",
-                    "location": [
-                        -81,
-                        33
-                    ],
-                    "url": "http://dev.maps.coastalresilience.org/southatlantic",
-                    "thumbnailUrl": "",
-                    "tooltipGravity": "n",
-                    "stickyTooltip": true
-                },
-                {
-                    "name": "Southeast Florida",
-                    "description": "Restoring natural areas so they can protect vulnerable island communities",
-                    "url": "http://dev.maps.coastalresilience.org/flkeys",
-                    "whatsNew": {
-                        "url": "http://goo.gl/zMBF6N",
-                        "description": "New future habitat app illustrates and summarizes future marsh and land use patterns given sea level rise"
-                },
-                    "location": [
-                        -81.85,
-                        24.85
-                    ],
-                    "thumbnailUrl": "img/geo-postcards/FloridaKeys.png"
+                    "thumbnailUrl": "img/geo-postcards/ny-ct.png"
                 },
                 {
                     "name": "<i>NEW:</i> Virginia",
@@ -213,15 +139,15 @@
                         -75.8,
                         37.5
                     ],
-                    "url": "http://dev.maps.coastalresilience.org/virginia",
-                    "thumbnailUrl": "",
+                    "url": "http://maps.coastalresilience.org/virginia",
+                    "thumbnailUrl": "img/geo-postcards/eastern_shore.png",
                     "tooltipGravity": "w",
                     "stickyTooltip": true
                 },
                 {
-                    "name": "Washington",
+					"name": "Puget Sound",
                     "description": "Helping Puget Sound communities visualize and plan for change",
-                    "url": "http://dev.maps.coastalresilience.org/pugetsound",
+                    "url": "http://maps.coastalresilience.org/pugetsound",
                     "location": [
                         -122.47,
                         47.89
