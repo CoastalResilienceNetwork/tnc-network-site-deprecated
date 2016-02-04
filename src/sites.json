@@ -106,7 +106,7 @@
                     "name": "New Jersey",
                     "description": "Using natural infrastructure to build resiliency in New Jersey’s coastal communities",
 					"location": [
-                        -74.20,
+                        -74.40,
                         39.95
                     ],
                     "url": "http://maps.coastalresilience.org/newjersey",
@@ -117,8 +117,8 @@
                     "description": "Providing New York with the right tools, information and resources to help reduce community vulnerability, plan responsibly, and protect natural resources.",
                     "url": "http://maps.coastalresilience.org/newyork",
                     "location": [
-                        -73,
-                        40.5
+                        -73.4,
+                        40.6
                     ],
                     "thumbnailUrl": "img/geo-postcards/ny-ct.png"
                 },
