@@ -153,8 +153,7 @@
                     ],
                     "url": "http://maps.coastalresilience.org/virginia",
                     "thumbnailUrl": "img/geo-postcards/Eastern_Shore.png",
-                    "tooltipGravity": "w",
-                    "stickyTooltip": true
+                    "tooltipGravity": "w"
                 },
                 {
 					"name": "Puget Sound, Washington",
