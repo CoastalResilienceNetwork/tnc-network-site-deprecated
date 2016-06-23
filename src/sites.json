@@ -123,6 +123,18 @@
                     "thumbnailUrl": "img/geo-postcards/ny-ct.png"
                 },
                 {
+                    "name": "<i>NEW:</i> North Carolina",
+                    "description": "Identifying nature-based solutions for reducing risk in coastal communities",
+                    "location": [
+                        -78,
+                        34.5
+                    ],
+                    "url": "http://maps.coastalresilience.org/northcarolina",
+                    "thumbnailUrl": "img/geo-postcards/NC_Network_Thumb.png",
+                    "tooltipGravity": "w",
+                    "stickyTooltip": true
+                },
+                {
                     "name": "Southeast Florida",
                     "description": "Restoring natural areas so they can protect vulnerable island communities",
                     "url": "http://maps.coastalresilience.org/seflorida",
@@ -133,7 +145,7 @@
                     "thumbnailUrl": "img/geo-postcards/FloridaKeys.png"
                 },
                 {
-                    "name": "<i>NEW:</i> Virginia",
+                    "name": "Virginia",
                     "description": "",
                     "location": [
                         -75.8,
