@@ -70,11 +70,11 @@
             "regions": [
                 {
                     "name": "California",
-                    "description": "Coastal Resilience Ventura will advance social, economic and environmental solutions to climate change and coastal hazards that are effective and cost efficient through science, decision-support tools, partnerships and policy for both people and nature",
+                    "description": "Helping California’s coastal communities plan for resilience in the face of sea level rise",
                     "url": "http://maps.coastalresilience.org/california",
                     "location": [
 						-119.34,
-						34.23
+						35.23
                     ],
 					"thumbnailUrl": "img/geo-postcards/California3.png"
 				},
@@ -92,15 +92,21 @@
                     "name": "Gulf of Mexico",
                     "description": "With its high incidence of storms and hurricanes and valuable ecological and economic resources, the Gulf region is a high-risk area with great potential to demonstrate natural risk reduction solutions. The Coastal Resilience approach and tools have been applied Gulf-wide and at specific sites, including those that help identify where to implement oyster reef restoration to meet social and ecological goals. Oyster restoration demonstration projects with partners like the National Oceanic and Atmospheric Administration (NOAA) and Army Corps of Engineers (ACOE) creates a strong base for replication and scaling-up to larger projects.",
                     "url": "http://maps.coastalresilience.org/gulfmex/",
-                    "whatsNew": {
-                        "url": "http://coastalresilience.org/project-areas/gulf-of-mexico",
-                        "description": "New project information and featured stories"
-                },
                     "location": [
                         -93.34,
                         29
                     ],
                     "thumbnailUrl": "img/geo-postcards/gulfMexico_3.png"
+                },
+                {
+                    "name": "Maine",
+                    "description": "Coastal Resilience is a web mapping tool that allows you to examine nature’s role in reducing coastal risks and opportunities for habitat conservation in Maine",
+                    "location": [
+                        -65,
+                        45
+                    ],
+                    "url": "http://maps.coastalresilience.org/maine",
+                    "thumbnailUrl": "img/future_habitat.png"
                 },
                 {
                     "name": "New Jersey",
@@ -123,16 +129,14 @@
                     "thumbnailUrl": "img/geo-postcards/ny-ct.png"
                 },
                 {
-                    "name": "<i>NEW:</i> North Carolina",
+                    "name": "North Carolina",
                     "description": "Identifying nature-based solutions for reducing risk in coastal communities",
+                    "url": "http://maps.coastalresilience.org/northcarolina",
                     "location": [
                         -78,
                         34.5
                     ],
-                    "url": "http://maps.coastalresilience.org/northcarolina",
-                    "thumbnailUrl": "img/geo-postcards/NC_Network_Thumb.png",
-                    "tooltipGravity": "w",
-                    "stickyTooltip": true
+                    "thumbnailUrl": "img/geo-postcards/NC_Network_Thumb.png"
                 },
                 {
                     "name": "Southeast Florida",
@@ -146,18 +150,17 @@
                 },
                 {
                     "name": "Virginia",
-                    "description": "",
+                    "description": "Coastal Resilience is a decision-support tool that incorporates the best available science and local data to enable communities to visualize the risks imposed by sea-level rise and storm surge on the people, economy, and coastal habitats of the Eastern Shore and identify nature-based solutions for enhancing resilience and reducing risks where possible",
+                    "url": "http://maps.coastalresilience.org/virginia",
                     "location": [
                         -75.8,
                         37.5
                     ],
-                    "url": "http://maps.coastalresilience.org/virginia",
-                    "thumbnailUrl": "img/geo-postcards/Eastern_Shore.png",
-                    "tooltipGravity": "w"
+                    "thumbnailUrl": "img/geo-postcards/Eastern_Shore.png"
                 },
                 {
-					"name": "Puget Sound, Washington",
-                    "description": "Helping Puget Sound communities visualize and plan for change",
+					"name": "Washington",
+                    "description": "With the Coastal Resilience/Floodplains by Design decision support tools, users can explore data and spatial analysis results for the rivers and shorelines of Washington from Puget Sound to the Outer Coast. These tools provide managers and planners mechanisms to explore the role of natural habitat in risk reduction along marine and fresh water shorelines to inform local restoration projects and development planning",
                     "url": "http://maps.coastalresilience.org/pugetsound",
                     "location": [
                         -122.47,
