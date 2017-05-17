@@ -99,14 +99,24 @@
                     "thumbnailUrl": "img/geo-postcards/gulfMexico_3.png"
                 },
                 {
+                    "name": "Hawaii",
+                    "description": "",
+                    "url": "http://maps.coastalresilience.org/hawaii",
+                    "location": [
+                        -156,
+                        19.5
+                    ],
+                    "thumbnailUrl": "img/geo-postcards/anchialine_pool.jpg"
+                },
+                {
                     "name": "Maine",
                     "description": "Coastal Resilience is a web mapping tool that allows you to examine nature’s role in reducing coastal risks and opportunities for habitat conservation in Maine",
                     "location": [
-                        -65,
-                        45
+                        -69,
+                        44.5
                     ],
                     "url": "http://maps.coastalresilience.org/maine",
-                    "thumbnailUrl": "img/future_habitat.png"
+                    "thumbnailUrl": "img/geo-postcards/EastCoast.png"
                 },
                 {
                     "name": "New Jersey",
